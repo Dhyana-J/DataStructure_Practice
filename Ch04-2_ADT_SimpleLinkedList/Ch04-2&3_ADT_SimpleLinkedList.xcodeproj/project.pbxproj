@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8F97CF982A690D2A00C56F88 /* Ch04-2_ADT_SimpleLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ch04-2_ADT_SimpleLinkedList"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F97CF982A690D2A00C56F88 /* Ch04-2&3_ADT_SimpleLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ch04-2&3_ADT_SimpleLinkedList"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F97CF9B2A690D2A00C56F88 /* DLinkedListMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DLinkedListMain.c; sourceTree = "<group>"; };
 		8FD282DB2A6A480300008388 /* Question04-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Question04-2.c"; sourceTree = "<group>"; };
 		8FD282DD2A6A4EEB00008388 /* DLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLinkedList.h; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		8F97CF8F2A690D2A00C56F88 = {
 			isa = PBXGroup;
 			children = (
-				8F97CF9A2A690D2A00C56F88 /* Ch04-2_ADT_SimpleLinkedList */,
+				8F97CF9A2A690D2A00C56F88 /* Ch04-2&3_ADT_SimpleLinkedList */,
 				8F97CF992A690D2A00C56F88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		8F97CF992A690D2A00C56F88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F97CF982A690D2A00C56F88 /* Ch04-2_ADT_SimpleLinkedList */,
+				8F97CF982A690D2A00C56F88 /* Ch04-2&3_ADT_SimpleLinkedList */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8F97CF9A2A690D2A00C56F88 /* Ch04-2_ADT_SimpleLinkedList */ = {
+		8F97CF9A2A690D2A00C56F88 /* Ch04-2&3_ADT_SimpleLinkedList */ = {
 			isa = PBXGroup;
 			children = (
 				8F97CF9B2A690D2A00C56F88 /* DLinkedListMain.c */,
@@ -67,15 +67,15 @@
 				8FD282DD2A6A4EEB00008388 /* DLinkedList.h */,
 				8FD282DE2A6A532B00008388 /* DLinkedList.c */,
 			);
-			path = "Ch04-2_ADT_SimpleLinkedList";
+			path = "Ch04-2&3_ADT_SimpleLinkedList";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8F97CF972A690D2A00C56F88 /* Ch04-2_ADT_SimpleLinkedList */ = {
+		8F97CF972A690D2A00C56F88 /* Ch04-2&3_ADT_SimpleLinkedList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F97CF9F2A690D2A00C56F88 /* Build configuration list for PBXNativeTarget "Ch04-2_ADT_SimpleLinkedList" */;
+			buildConfigurationList = 8F97CF9F2A690D2A00C56F88 /* Build configuration list for PBXNativeTarget "Ch04-2&3_ADT_SimpleLinkedList" */;
 			buildPhases = (
 				8F97CF942A690D2A00C56F88 /* Sources */,
 				8F97CF952A690D2A00C56F88 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Ch04-2_ADT_SimpleLinkedList";
+			name = "Ch04-2&3_ADT_SimpleLinkedList";
 			productName = "04-2_ADT_SimpleLinkedList";
-			productReference = 8F97CF982A690D2A00C56F88 /* Ch04-2_ADT_SimpleLinkedList */;
+			productReference = 8F97CF982A690D2A00C56F88 /* Ch04-2&3_ADT_SimpleLinkedList */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8F97CF932A690D2A00C56F88 /* Build configuration list for PBXProject "Ch04-2_ADT_SimpleLinkedList" */;
+			buildConfigurationList = 8F97CF932A690D2A00C56F88 /* Build configuration list for PBXProject "Ch04-2&3_ADT_SimpleLinkedList" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F97CF972A690D2A00C56F88 /* Ch04-2_ADT_SimpleLinkedList */,
+				8F97CF972A690D2A00C56F88 /* Ch04-2&3_ADT_SimpleLinkedList */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F97CF932A690D2A00C56F88 /* Build configuration list for PBXProject "Ch04-2_ADT_SimpleLinkedList" */ = {
+		8F97CF932A690D2A00C56F88 /* Build configuration list for PBXProject "Ch04-2&3_ADT_SimpleLinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F97CF9D2A690D2A00C56F88 /* Debug */,
@@ -277,7 +277,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F97CF9F2A690D2A00C56F88 /* Build configuration list for PBXNativeTarget "Ch04-2_ADT_SimpleLinkedList" */ = {
+		8F97CF9F2A690D2A00C56F88 /* Build configuration list for PBXNativeTarget "Ch04-2&3_ADT_SimpleLinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F97CFA02A690D2A00C56F88 /* Debug */,

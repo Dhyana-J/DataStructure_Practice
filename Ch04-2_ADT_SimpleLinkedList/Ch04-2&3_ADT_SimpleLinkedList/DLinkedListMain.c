@@ -1,6 +1,6 @@
 //
 //  main.c
-//  04-2_ADT_SimpleLinkedList
+//  04-2&3_ADT_SimpleLinkedList
 //
 //  Created by Kaala on 2023/07/20.
 //
@@ -9,6 +9,14 @@
 #include <stdlib.h>
 #include "DLinkedList.h"
 
+int WhoIsPrecede(int d1, int d2)
+{
+    if(d1 < d2)
+        return 0;
+    else
+        return 1;
+}
+
 
 int main(void)
 {
@@ -16,6 +24,7 @@ int main(void)
     List list;
     int data;
     ListInit(&list);
+    SetSortRule(&list, &WhoIsPrecede);
     
     // 5개의 데이터 저장 /////
     LInsert(&list,11);

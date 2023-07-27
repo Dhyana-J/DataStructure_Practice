@@ -1,6 +1,6 @@
 //
 //  DLinkedList.c
-//  Ch04-2_ADT_SimpleLinkedList
+//  Ch04-2&3_ADT_SimpleLinkedList
 //
 //  Created by Kaala on 2023/07/21.
 //
@@ -14,8 +14,8 @@ void ListInit(List * plist)
 {
     plist->head = (Node*)malloc(sizeof(Node));
     plist->head->next = NULL;
-    plist->comp = NULL;
     plist->numOfData = 0;
+    plist->comp = NULL;
 }
 
 void FInsert(List * plist, LData data)
@@ -31,7 +31,19 @@ void FInsert(List * plist, LData data)
 
 void SInsert(List * plist, LData data)
 {
+    Node * newNode = (Node*)malloc(sizeof(Node));
+    Node * pred = plist->head; // Dummy Node
+    newNode->data = data;
     
+    while(pred->next != NULL && plist->comp(data, pred->next->data) != 0) // 다음 노드가 NULL이거나 비교값이 0을 반환할 때 까지 반복
+    {
+        pred = pred->next;
+    }
+    
+    newNode->next = pred->next;
+    pred->next = newNode;
+    
+    (plist->numOfData)++;
 }
 
 void LInsert(List * plist, LData data)
@@ -89,5 +101,5 @@ int LCount(List * plist)
 
 void SetSortRule(List * plist, int (*comp)(LData d1, LData d2))
 {
-    
+    plist->comp = comp;
 }

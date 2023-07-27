@@ -1,6 +1,6 @@
 //
 //  LinkedReadWithDummy.c
-//  Ch04-2_ADT_SimpleLinkedList
+//  Ch04-2&3_ADT_SimpleLinkedList
 //
 //  Created by Kaala on 2023/07/21.
 //
